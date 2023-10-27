@@ -1,0 +1,15 @@
+package com.spring.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+// classe representant le point de demarrage de l'application.
+@SpringBootApplication
+public class FirstspringbootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FirstspringbootApplication.class, args);
+	}
+
+}
