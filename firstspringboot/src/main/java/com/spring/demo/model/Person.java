@@ -22,6 +22,10 @@ public class Person {
 	
 	
 	
+	public Person() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public Person(String nom, String prenom) {
 		super();
 		this.nom = nom;
